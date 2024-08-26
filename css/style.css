@@ -40,8 +40,8 @@ justify-content: space-between;
 }
 
 .cajatexto{
-    width: 80%;
-    height: 100%;
+    width: 70%;
+    height: 95%;
     border: none;
     background-color: #f4f4fc;
     cursor: pointer;
@@ -49,7 +49,7 @@ justify-content: space-between;
     font-size: 32px;
     font-weight: 400;
     font-family:'inter' , sans-serif;
-
+    margin-left: -50px;
 
 }
 
@@ -104,7 +104,7 @@ justify-content: space-between;
     display: block;
     position: relative;
     width: 400px;
-    height: 940px;
+    height: 800px;
     right: 400px;
     padding-right: 20px;
     background-color: #ffffff;
@@ -114,29 +114,30 @@ justify-content: space-between;
 }
 
 .muneco{
-    position: absolute;
     left: 30px;
     top: 180px;
     box-sizing: border-box;
     padding-top: 50px;
+    
 
 }
 .Parrafo{
     position: absolute;
     box-sizing: border-box;
-    top: 570px;
+    top: 500px;
     left: 40px;
     text-align: center;
     
 }
 .resultado{
     position: absolute;
-    bottom: 410px;
+    bottom: 325px;
     width: 320px;
     height: 450px;
     padding: 0;
     box-sizing: border-box;
     margin-left: 25px;
+    text-align: left;
 
 }
 .resultado-texto{
@@ -147,10 +148,11 @@ justify-content: space-between;
 .boton-copiarStyle {
     display: flex;
     position: absolute;
-    bottom: 400px;
-    top: 700px;
-    background-color: aqua;
+    bottom: 300px;
+    top: 600px;
+    background-color: none;
     padding-left: 40px;
+    
 
 }
 
